@@ -1,3 +1,4 @@
 { "rewrites": [
-  { "source": "/auth/:path*", "destination": "https://auth-backend-lb6o.onrender.com/auth/:path*" }
+  { "source": "/auth/:path*", "destination": "https://auth-backend-lb6o.onrender.com/auth/:path*" },
+  { "source": "/api/:path*",  "destination": "https://peopleforpeople-campaign-api.onrender.com/api/:path*" }
 ] }
