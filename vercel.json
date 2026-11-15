@@ -1,0 +1,3 @@
+{ "rewrites": [
+  { "source": "/auth/:path*", "destination": "https://auth-backend-lb6o.onrender.com/auth/:path*" }
+] }
